@@ -292,12 +292,20 @@ const Home: NextPage = () => {
 
       <div>
       </div>
-      <footer>
-        <img 
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <footer className='border-t border-yellow-600 flex items-center text-white justify-between p-5'>
+        <img
+        className='h-10 w-10 filter hue-rotate-90 opacity-20 rounded-full' 
          src="https://imgur.com/c0MlhjN.png" 
          alt="Winnr" />
-        <p>
-          Footer
+        <p className='text-xs text-white pl-5'>
+          This is a footer, there's nothing on this footer since it's a pre production build.
+          You may go back to buying more tickets. Seriously, stop reading. As i was saying, this 
+          build constitutes of...Ayo! stop Reading! Thanks. :-D
         </p>
       </footer>
     </div>
